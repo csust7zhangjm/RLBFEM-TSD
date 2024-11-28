@@ -46,15 +46,17 @@ TT100K：[TT100K](https://cg.cs.tsinghua.edu.cn/traffic-sign/)
    2. 预训练权重文件的路径修改
 2. 训练集和测试集路径文档的生成，参见**voc_annotation**文件
 3. 修改train.py里面对应的训练集和测试集文档路径
-
 4. 训练结果保存在**logs**文件夹下
+
+通过百度网盘分享的文件：pretrain.pth
+链接：https://pan.baidu.com/s/1OfW5kBWJoBdlFoOg_oxscQ 
+提取码：grky
 
 # 测试
 
 1. 修改**focs.py**中的**model_path**字段值为训练好的权重文件
 2. 进入**get_map.py**文件，检查数据集图片的路径是否正确
 3. 运行**get_map.py**文件，测试结果保存在**map_out**文件夹下
-
 4. 参数量和计算量的测试在**complexity_and_parameters.py**
 
 # 数据集
